@@ -1,0 +1,398 @@
+.nav-head {
+  background-color: aqua;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-items {
+  font-family: "Open Sans",sans-serif;
+  color: #47536E;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 26px;
+}
+
+nav ul li a {
+  color: #47536E;
+  font-size: 14px;
+}
+
+nav {
+  position: relative;
+  top: -5px;
+}
+
+.appland {
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-right: 202px;
+  position: relative;
+  right: 30px;
+  font-size: 30px;
+  color: #5777BA;
+}
+
+#start {
+  color: white;
+  background-color: #5777BA;
+  padding: 10px 20px 10px 21px;
+  border-radius: 200px;
+  margin-left: 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#start:hover {
+  background-color: #748ec6;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#start a {
+  color: white;
+}
+
+.navlist {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section-one {
+  padding-top: 120px;
+}
+
+.section-one-left-div h1 {
+  font-size: 48px;
+  font-family: poppins,sans-serif;
+  letter-spacing: 1px;
+  /* text-align-last: justify; */
+  text-align: left;
+  color: #5777BA;
+}
+
+.section-one-div {
+  display: inline-block;
+}
+
+.section-one-left-div p {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #515f7D;
+  text-align: left;
+  font-weight: 700;
+  margin: 0;
+  position: relative;
+  top: -27px;
+}
+
+.section-one-left-div {
+  width: 52%;
+  float: left;
+  position: relative;
+  left: -12px;
+  top: 55px;
+  z-index: 1;
+}
+
+.section-one-right-div {
+  position: relative;
+  left: 12px;
+}
+
+#hero {
+  width: 48%;
+}
+
+.store {
+  float: left;
+  position: relative;
+  background: #47535E;
+  padding: 10px 16px 10px 16px;
+  border-radius: 3px;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+  font-family: poppins, sans-serif;
+}
+
+.store:hover {
+  background: #5777ba;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.Astore {
+  margin-left: 34px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  margin-right: 10px;
+}
+
+.section-two {
+  padding-top: 80px;
+}
+
+.section-two-div {
+  display: inline-block;
+  background-color: white;
+}
+
+.section-two-div h1 {
+  font-family: poppins, sans-serif;
+  color: #5777BA;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-two-div p {
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  color: #979aa1;
+  line-height: 23px;
+  margin: 0;
+  width: 74%;
+  position: relative;
+  left: -20px;
+  /* text-align: left; */
+  display: inline-block;
+}
+
+.main-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px;
+      grid-template-columns: 300px 300px;
+  position: relative;
+  left: 46px;
+  grid-row-gap: 8px;
+  grid-column-gap: 52px;
+}
+
+.main-grid div {
+  width: 100%;
+}
+
+.main-grid div p {
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+  color: #979aa1;
+  line-height: 23px;
+  margin: 0;
+  width: 75%;
+  position: relative;
+  left: 33px;
+  text-align: left;
+}
+
+.main-grid h4 {
+  font-size: 18px;
+  font-family: 'Raleway',Sans-serif;
+  color: #585A61;
+  position: relative;
+  margin: 0 0 10px;
+}
+
+#section-three {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr;
+      grid-template-columns: 1.5fr 1fr;
+}
+
+.heading-with-icon {
+  display: inline-block;
+}
+
+.image-grid {
+  width: 36%;
+  position: relative;
+  top: 122px;
+  height: 46%;
+  left: 131px;
+}
+
+#receipt-icon {
+  width: 43px;
+  height: 42px;
+  font-size: 33px;
+  position: relative;
+  top: 16px;
+  right: 20px;
+}
+
+.section-four-div-grid {
+  display: inline-block;
+}
+
+.section-four-image {
+  width: 26%;
+  display: inline-block;
+  float: left;
+}
+
+.section-four-image img {
+  width: 100%;
+  position: relative;
+  left: 115px;
+}
+
+.section-four-text-div {
+  text-align: left;
+}
+
+.section-four-text-div-h1 {
+  text-align: left;
+}
+
+.section-four-text-div-li {
+  text-align: left;
+}
+
+.section-four-text-div {
+  width: 80%;
+  position: relative;
+  left: 145px;
+}
+
+.section-four-div h1 {
+  font-size: 32px;
+  color: #47536E;
+  font-family: "Raleway", sans-serif;
+}
+
+.section-four-div .firstp {
+  font-style: italic;
+  color: #47536E;
+  font-size: 17px;
+  text-align: left;
+}
+
+.secondp {
+  width: 97%;
+  font-family: "Open Sans", sans-serif;
+  color: #585A61;
+  line-height: 22px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.section-four-text-div ul li span i {
+  color: #5777ba;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.section-four-div ul li {
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #585A61;
+}
+
+.section-four-div {
+  display: inline-block;
+}
+
+.section-five-div {
+  display: inline-block;
+}
+
+.section-five-grid-div {
+  display: -ms-grid;
+  display: grid;
+  width: 85%;
+  position: relative;
+  left: 97px;
+  -ms-grid-columns: 1.5fr 1fr;
+      grid-template-columns: 1.5fr 1fr;
+}
+
+.section-five-text-div {
+  display: inline-block;
+  width: 761px;
+  text-align: left;
+}
+
+.section-five-text-div h1 {
+  font: 32px "Raleway", sans-serif;
+  color: #47536E;
+  font-weight: 700;
+}
+
+.section-five-text-div #italy {
+  font-family: italic;
+  color: #585A61;
+  font-size: 18px;
+  width: 94%;
+}
+
+.section-five-text-div p {
+  font: 15px "Open Sans", sans-serif;
+  color: #585A61;
+}
+
+.section-five-text-div .thirdandfouth {
+  width: 90%;
+  line-height: 25px;
+}
+
+.section-five-image {
+  display: inline-block;
+  width: 100%;
+}
+
+.section-five-image img {
+  width: 320px;
+}
+
+#quas {
+  font-size: 15px;
+  color: #585A61;
+  font-family: "Open Sans",sans-serif;
+  line-height: 26px;
+}
+
+#quas span i {
+  padding-left: 2px;
+}
+
+.section-six-subdiv {
+  width: 75%;
+  display: inline-block;
+}
+
+.section-six-subdiv h1 {
+  color: #5777ba;
+  font-family: poppins, sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.section-six-subdiv p {
+  font-family: "Open Sans", sans-serif;
+  color: #585a61;
+  line-height: 25px;
+}
+
+.section-six-maindiv {
+  display: inline-block;
+}
+/*# sourceMappingURL=AppLand-betaV1.0.css.map */

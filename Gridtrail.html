@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+    <style>
+        .main-grid{
+            display: grid;
+            grid-template-columns: 265px 265px;
+            position: relative;
+            left: 120px;
+            grid-row-gap: 8px;
+            grid-column-gap: 52px;
+
+        }
+        .main-grid div {
+            width: 100%;
+        }
+        .main-grid div p {
+            font-size: 14px;
+            font-family: "Open Sans",sans-serif;
+            color: #979aa1;
+            line-height: 23px;
+            margin: 0;
+            width: 84%;
+            position: relative;
+            left:33px;
+        }
+        .main-grid h4 {
+            font-size: 18px;
+            font-family: 'Raleway',Sans-serif;
+            color: #585A61;
+            position: relative;
+             right: 15px;
+             margin: 0 0 10px;
+        }
+        #section-three {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+        }
+        .heading-with-icon{
+            display: inline-block;
+
+        }
+        .image-grid{
+            width: 29%;
+            position: relative;
+            top: 122px;
+            height: 46%;
+            left: 131px;
+        }
+        #receipt-icon{
+            width: 43px;
+             height: 42px;
+             font-size: 33px;
+            position: relative;
+            top: 16px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="section-three">
+        <div class="main-grid">
+            <div>
+                <box-icon name='receipt' color="#5777BA" id="receipt-icon"></box-icon>
+               <h4 class="heading-with-icon">Corporis voluptates sit</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            </div>
+            <div>
+                <box-icon name='cube-alt' color="#5777BA" id="receipt-icon"></box-icon>
+               <h4 class="heading-with-icon">Ullamco laboris nisi</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+            <div>
+                <box-icon name='images' color="#5777BA" id="receipt-icon" ></box-icon>
+               <h4 class="heading-with-icon">Labore consequatur</h4>
+                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+            <div>
+                <box-icon name='shield' color="#5777BA" id="receipt-icon" ></box-icon>
+               <h4 class="heading-with-icon">Beatae veritatis</h4>
+                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+            <div>
+                <box-icon name='atom'color="#5777BA" id="receipt-icon" ></box-icon>
+               <h4 class="heading-with-icon">Molestiae dolor</h4>
+                <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+            </div>
+            <div>
+                <box-icon name='id-card' color="#5777BA" id="receipt-icon" ></box-icon>
+               <h4 class="heading-with-icon">Explicabo consectetur</h4>
+                <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+            </div>
+        </div>
+        <div class="image-grid">
+            <div><img src="./features.svg"</div>
+        </div>
+    </div>
+    </section>
+    <script src="https://kit.fontawesome.com/0d098bd6e3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+</body>
+</html>
